@@ -28,7 +28,7 @@ public class Acc_management extends javax.swing.JPanel {
         jButton1.setText("BACK");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);gfhgfdhd
+                jButton1ActionPerformed(evt);
             }
         });
         add(jButton1);
