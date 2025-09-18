@@ -524,6 +524,7 @@ ONHOLD.setDefaultRenderer(Object.class, new javax.swing.table.DefaultTableCellRe
 
         MONITORING = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
+        C1 = new javax.swing.JLabel();
         C2 = new javax.swing.JLabel();
         C3 = new javax.swing.JLabel();
         C4 = new javax.swing.JLabel();
@@ -543,7 +544,6 @@ ONHOLD.setDefaultRenderer(Object.class, new javax.swing.table.DefaultTableCellRe
         N2 = new javax.swing.JButton();
         N3 = new javax.swing.JButton();
         N4 = new javax.swing.JButton();
-        C1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
@@ -571,6 +571,12 @@ ONHOLD.setDefaultRenderer(Object.class, new javax.swing.table.DefaultTableCellRe
 
         jPanel1.setOpaque(false);
         jPanel1.setLayout(null);
+
+        C1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        C1.setForeground(java.awt.Color.black);
+        C1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jPanel1.add(C1);
+        C1.setBounds(0, 10, 155, 60);
 
         C2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         C2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -741,7 +747,7 @@ ONHOLD.setDefaultRenderer(Object.class, new javax.swing.table.DefaultTableCellRe
         jScrollPane1.setViewportView(T1);
 
         jPanel1.add(jScrollPane1);
-        jScrollPane1.setBounds(97, 235, 157, 130);
+        jScrollPane1.setBounds(97, 25, 770, 340);
 
         N1.setBorderPainted(false);
         N1.setContentAreaFilled(false);
@@ -790,12 +796,6 @@ ONHOLD.setDefaultRenderer(Object.class, new javax.swing.table.DefaultTableCellRe
         });
         jPanel1.add(N4);
         N4.setBounds(699, 379, 176, 45);
-
-        C1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        C1.setForeground(java.awt.Color.black);
-        C1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jPanel1.add(C1);
-        C1.setBounds(97, 75, 155, 60);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG'S/MANAGE.png"))); // NOI18N
         jLabel2.setText("jLabel2");
